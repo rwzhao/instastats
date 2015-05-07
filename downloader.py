@@ -7,7 +7,7 @@
 # IMPORTANT!
 # you have to use your own instagram client id
 
-import sys, requests, json, urllib, shutil, datetime
+import sys, requests, json, urllib, shutil, datetime, os
 
 class Downloader:
 	def __init__(self, clientid):
