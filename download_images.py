@@ -12,7 +12,6 @@
 import downloader, argparse, time, os, datetime
 clientid = ''
 
-
 # parse command line arguments
 parser = argparse.ArgumentParser(description='Downloads images from Instagram. Use your own API cliend it!')
 parser.add_argument('-r','--range', action='store_true',
@@ -75,3 +74,4 @@ for i in range(len(posts)):
 	filename = outdir + stamp + "_" + url.split('/')[-1]
 	if client.downloadImage(url, filename):
 		print ">> downloaded img {0} of {1} {2}".format(i+1, len(posts), filename)
+

@@ -17,7 +17,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # add your instagram client id here!
-clientid = '69164a0ee9d34973961720101e5956a3'
+clientid = ''
 
 
 # parse command line arguments
